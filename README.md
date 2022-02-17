@@ -15,6 +15,7 @@ There are two ways to add this component to your project
 ```
 idf.py add-dependency joltwallet/littlefs==1.1.0
 ```
+If ESP-IDF was installed using VS code, use the ESP-IDF Terminal on the bottom bar of VS code. This eliminates errors from idf.py or python errors that 'click' is not found.
 
 2. As a submodule: In your project, add this as a submodule to your `components/` directory.
 
